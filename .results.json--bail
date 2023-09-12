@@ -1,0 +1,468 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 15,
+    "passes": 0,
+    "pending": 0,
+    "failures": 15,
+    "start": "2023-09-12T22:53:36.984Z",
+    "end": "2023-09-12T22:53:37.056Z",
+    "duration": 72
+  },
+  "tests": [
+    {
+      "title": "'add()' is a valid function",
+      "fullTitle": "basic math functions 'add()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (test/indexTest.js:12:12)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "add is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: add is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "'subtract()' is a valid function",
+      "fullTitle": "basic math functions 'subtract()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: subtract is not defined\n    at Context.<anonymous> (test/indexTest.js:16:12)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "subtract is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: subtract is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "'multiply()' is a valid function",
+      "fullTitle": "basic math functions 'multiply()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: multiply is not defined\n    at Context.<anonymous> (test/indexTest.js:20:12)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "multiply is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: multiply is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "'divide()' is a valid function",
+      "fullTitle": "basic math functions 'divide()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: divide is not defined\n    at Context.<anonymous> (test/indexTest.js:24:12)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "divide is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: divide is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "add(a, b) adds two numbers and returns the result",
+      "fullTitle": "basic math functions add(a, b) adds two numbers and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (test/indexTest.js:28:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "add is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: add is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "subtract(a, b) subtracts b from a and returns the result",
+      "fullTitle": "basic math functions subtract(a, b) subtracts b from a and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: subtract is not defined\n    at Context.<anonymous> (test/indexTest.js:32:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "subtract is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: subtract is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "multiply(a, b) multiplies two numbers and returns the result",
+      "fullTitle": "basic math functions multiply(a, b) multiplies two numbers and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: multiply is not defined\n    at Context.<anonymous> (test/indexTest.js:36:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "multiply is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: multiply is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "divide(a, b) divides a by b and returns the result",
+      "fullTitle": "basic math functions divide(a, b) divides a by b and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: divide is not defined\n    at Context.<anonymous> (test/indexTest.js:40:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "divide is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: divide is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "increment(n) increments n and returns the result",
+      "fullTitle": "basic math functions increment(n) increments n and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: increment is not defined\n    at Context.<anonymous> (test/indexTest.js:44:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "increment is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: increment is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "decrement(n) decrements n and returns the result",
+      "fullTitle": "basic math functions decrement(n) decrements n and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: decrement is not defined\n    at Context.<anonymous> (test/indexTest.js:48:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "decrement is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: decrement is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "parses n as an integer and returns the parsed integer",
+      "fullTitle": "makeInt(n) parses n as an integer and returns the parsed integer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/indexTest.js:57:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "assumes base 10",
+      "fullTitle": "makeInt(n) assumes base 10",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/indexTest.js:61:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns NaN as appropriate",
+      "fullTitle": "makeInt(n) returns NaN as appropriate",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/indexTest.js:65:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "preserves n's decimals (it parses n as a floating point number) and returns the parsed number",
+      "fullTitle": "preserveDecimal(n) preserves n's decimals (it parses n as a floating point number) and returns the parsed number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: preserveDecimal is not defined\n    at Context.<anonymous> (test/indexTest.js:71:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "preserveDecimal is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: preserveDecimal is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns NaN as appropriate",
+      "fullTitle": "preserveDecimal(n) returns NaN as appropriate",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: preserveDecimal is not defined\n    at Context.<anonymous> (test/indexTest.js:75:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "preserveDecimal is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: preserveDecimal is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "'add()' is a valid function",
+      "fullTitle": "basic math functions 'add()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (test/indexTest.js:12:12)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "add is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: add is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "'subtract()' is a valid function",
+      "fullTitle": "basic math functions 'subtract()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: subtract is not defined\n    at Context.<anonymous> (test/indexTest.js:16:12)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "subtract is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: subtract is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "'multiply()' is a valid function",
+      "fullTitle": "basic math functions 'multiply()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: multiply is not defined\n    at Context.<anonymous> (test/indexTest.js:20:12)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "multiply is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: multiply is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "'divide()' is a valid function",
+      "fullTitle": "basic math functions 'divide()' is a valid function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: divide is not defined\n    at Context.<anonymous> (test/indexTest.js:24:12)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "divide is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: divide is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "add(a, b) adds two numbers and returns the result",
+      "fullTitle": "basic math functions add(a, b) adds two numbers and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: add is not defined\n    at Context.<anonymous> (test/indexTest.js:28:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "add is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: add is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "subtract(a, b) subtracts b from a and returns the result",
+      "fullTitle": "basic math functions subtract(a, b) subtracts b from a and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: subtract is not defined\n    at Context.<anonymous> (test/indexTest.js:32:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "subtract is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: subtract is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "multiply(a, b) multiplies two numbers and returns the result",
+      "fullTitle": "basic math functions multiply(a, b) multiplies two numbers and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: multiply is not defined\n    at Context.<anonymous> (test/indexTest.js:36:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "multiply is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: multiply is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "divide(a, b) divides a by b and returns the result",
+      "fullTitle": "basic math functions divide(a, b) divides a by b and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: divide is not defined\n    at Context.<anonymous> (test/indexTest.js:40:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "divide is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: divide is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "increment(n) increments n and returns the result",
+      "fullTitle": "basic math functions increment(n) increments n and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: increment is not defined\n    at Context.<anonymous> (test/indexTest.js:44:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "increment is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: increment is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "decrement(n) decrements n and returns the result",
+      "fullTitle": "basic math functions decrement(n) decrements n and returns the result",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: decrement is not defined\n    at Context.<anonymous> (test/indexTest.js:48:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "decrement is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: decrement is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "parses n as an integer and returns the parsed integer",
+      "fullTitle": "makeInt(n) parses n as an integer and returns the parsed integer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/indexTest.js:57:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "assumes base 10",
+      "fullTitle": "makeInt(n) assumes base 10",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/indexTest.js:61:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns NaN as appropriate",
+      "fullTitle": "makeInt(n) returns NaN as appropriate",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: makeInt is not defined\n    at Context.<anonymous> (test/indexTest.js:65:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "makeInt is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: makeInt is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "preserves n's decimals (it parses n as a floating point number) and returns the parsed number",
+      "fullTitle": "preserveDecimal(n) preserves n's decimals (it parses n as a floating point number) and returns the parsed number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: preserveDecimal is not defined\n    at Context.<anonymous> (test/indexTest.js:71:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "preserveDecimal is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: preserveDecimal is not defined"
+          }
+        ]
+      }
+    },
+    {
+      "title": "returns NaN as appropriate",
+      "fullTitle": "preserveDecimal(n) returns NaN as appropriate",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: preserveDecimal is not defined\n    at Context.<anonymous> (test/indexTest.js:75:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "preserveDecimal is not defined",
+        "multiple": [
+          {
+            "multiple": "ReferenceError: preserveDecimal is not defined"
+          }
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
